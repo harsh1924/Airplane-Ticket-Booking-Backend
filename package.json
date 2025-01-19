@@ -1,0 +1,14 @@
+{
+  "name": "airplane-booking-backend",
+  "version": "1.0.0",
+  "description": "Airplane Ticket Booking System Backend",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Harsh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status-code": "^2.1.0"
+  }
+}
