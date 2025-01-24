@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Airplane Ticket Booking System Backend",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
   "author": "Harsh",
   "license": "ISC",
   "dependencies": {
