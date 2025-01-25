@@ -1,5 +1,3 @@
-// 1:05:40
-
 const express = require('express');
 const { ServerConfig } = require("./config");
 const apiRoutes = require('./routes');
