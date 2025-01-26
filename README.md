@@ -21,6 +21,10 @@ Let's take a look inside the `src` folder
 ### Setup the project
 
  - Download this template from github and open it in your favourite text editor.
+ - Go inside the folder and execute the following command:
+  ```
+    npm install
+  ```
  - In this root directory create a `.env` file and add the following env variables.
 
     ```
@@ -33,5 +37,10 @@ Let's take a look inside the `src` folder
         npx sequelize init
     ```
 
- - By executing the above command you will get a 
+ - By executing the above command you will get migrations and seeders folder along with a config.json inside the config folder.
  - Write the username of your db, password of your db and in dialect mention whatever db you are using for ex: mysql, mariadb etc according to your work enviornment.
+
+ - To run the server execute 
+  ```
+    npm run dev
+  ```   
